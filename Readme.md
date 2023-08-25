@@ -30,12 +30,25 @@ We welcome contributions from the community to enhance this project and explore 
 
 3. **Update README:** Add the name of the school you analyzed and the corresponding image in the "Contributions" section of this README.
 
+## Using the Streamlit Analysis App
+
+To provide an even more convenient way to perform text analysis and visualize word clouds, we've included a Streamlit app named `app.py`.
+
+### How to Use the Streamlit App:
+
+1. **Install Dependencies:** Make sure you have the required dependencies installed. You can install them using the following command:
+   ``bash
+   pip install streamlit requests html.parser nlp_rake wordcloud matplotlib
+``
+2. **Run The app:** to run the app, execute the following : 
+   ``bash
+   streamlit run app.py
+``
 ## Contributions
 
 Thank you to the contributors who have added their analyses to this project:
 
-- [School Name 1](images/school_name_1_wordcloud.png)
-- [School Name 2](images/school_name_2_wordcloud.png)
+- [ESI](images/SchoolOfInfoScience.png)
 
 Feel free to add your school's analysis by following the steps mentioned above! Choose a school from the following list:
 
